@@ -10,6 +10,7 @@ To change the ROS version being used, open the `Dockerfile` in the appropriate d
 
 ```dockerfile
 FROM ros:foxy
+FROM ros:noetic
 ````
 
 # Note:
