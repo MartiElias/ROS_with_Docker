@@ -10,6 +10,7 @@ To change the ROS version being used, open the `Dockerfile` in the appropriate d
 
 ```dockerfile
 FROM ros:foxy
+````
 
 # Note:
 If you are using an ARM device like a Raspberry Pi, the ROS version is different. In this case, the base image should be `FROM arm64v8/ros:foxy`.
