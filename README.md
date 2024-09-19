@@ -13,8 +13,10 @@ FROM ros:foxy
 FROM ros:noetic
 ````
 
-# Note:
+# Notes:
 If you are using an ARM device like a Raspberry Pi, the ROS version is different. In this case, the base image should be `FROM arm64v8/ros:foxy`.
+
+If you're looking to use older versions of ROS, like ROS Kinetic, please check out [this repository](https://github.com/MartiElias/ROS_Kinetic_VNC_Docker). It provides Docker support for ROS Kinetic with VNC for graphical access, ideal for systems running Ubuntu 16.04 or needing a containerized ROS Kinetic environment.
 
 ## Alternative Solution: VS Code Docker Extension
 
