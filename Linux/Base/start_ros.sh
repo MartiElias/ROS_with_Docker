@@ -7,4 +7,4 @@
 # --name -> ros: name the container 'ros'
 # image -> run the 'my_ros_foxy' image
 
-docker run --rm -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ./src:/home/ros-foxy/src -e DISPLAY=${DISPLAY} --network host --name ros my_ros_foxy
+docker run --rm -it -e "TERM=xterm-256color" -v /tmp/.X11-unix:/tmp/.X11-unix -v ./src:/home/ros-foxy/src -e DISPLAY=${DISPLAY} --network host --name ros my_ros_foxy
